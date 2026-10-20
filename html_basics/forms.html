@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">;
+    /* CSS framework */
+    <style>
+        body {
+            background-color: #e5eaeb;
+            font family: <link rel="preconnect" href="https://fonts.googleapis.com" > <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" >
+        }
+
+        form {
+            width: 50%;
+            border: 1px solid #0e0105;
+            margin: auto;
+            padding: 10px;
+        }
+
+        label {
+            color: #7e1937;
+            border: 1px solid #0e0105;
+            padding: 12px 8px;
+            text-align: left;
+        }
+
+        input {
+            color: #7e1937;
+            border: 1px solid #0e0105;
+            padding: 12px 8px;
+            text-align: left;
+
+        }
+
+
+        .lbl-full {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .input-full-w {
+            width: 50%;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Form inputs text,email, password, number,date,radio button,checkbox,select -->
+
+    <form action="">
+        <label class="lbl-full" for="full_name">Full Name:</label>
+        <input class="input-full-w " type="text" name="full_name" id="full_name" placeholder="Enter your full name"
+            required>
+
+        <label class="lbl-full" for="email">Email:</label>
+        <input class="input-full-w" type="email" name="email" id="email" placeholder="Enter your email" required>
+
+        <label class="lbl-full" for="password">Password:</label>
+        <input class="input-full-w" type="password" name="password" id="password" placeholder="Enter your password">
+
+        <label class="lbl-full" for="age">Age:</label>
+        <input class="input-full-w" type="number" name="age" id="age" placeholder="Enter your age">
+
+        <label class="lbl-full" for="gender">Gender:</label>
+        <input class="input-full-w" type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input class="input-full-w" type="radio" name="gender" id="female" value="female" checked>
+        <label for="female">Female</label>
+
+        <label class="lbl-full" for="dob">Date of Birth:</label>
+        <input class="input-full-w" type="date" name="dob" id="dob" required min="1980-01-01" max="2009-12-31">
+
+
+        <input class="input-full-w" type="checkbox" name="tennis" id="tennis">
+        <label class="lbl-full" for="tennis">Tennis</label>
+
+        <input class="input-full-w" type="checkbox" name="football" id="football">
+        <label class="lbl-full" for="football">Football</label>
+
+        <input class="input-full-w" type="checkbox" name="cricket" id="cricket">
+        <label class="lbl-full" for="cricket">Cricket</label>
+
+        <input class="input-full-w" type="checkbox" name="basketball" id="basketball">
+        <label class="lbl-full" for="basketball">Basketball</label>
+
+        label class="lbl-full" for="country">Country</label>
+        <select class="input-full-w" name="country" id="country">
+            <option value="nairobi">Nairobi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="nakuru">Nakuru</option>
+        </select>
+
+        <button type="submit">Submit</button>
+
+</body>
+
+</html>
+
+
+</form>
+
+
+</body>
+
+</html>
