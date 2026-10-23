@@ -9,12 +9,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css"
         integrity="sha512-vWHsp0PuTxwRMLtGTnbS7PDNtI7yFmmiFq24hjcqpup/KK7ixxWdXwRmerG9gu7peaSRIVxpFcfBSVrGzWcF4w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="styles_css/complete.css">
 </head>
 
 <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-sm bg-white sticky-top border bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-cart me-2"></i>Home<span class="dark-title">Goods</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn">
+                    <i class="bi bi-basket"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER SECTION -->
+    <header class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="text-uppercase">quality home essentials </p>
+                    <h1 class="display-4">Make Your Home More Comfortable</h1>
+                    <P class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                        possimus.</P>
+                    <a href="#" class="btn btn-success btn-lg">Shop now<i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
     <!-- MAINN -->
     <main>
-        <section class="products-section">
+        <section class="products-section" py-5>
             <div class="container">
                 <div class="section-heading mb-4 ">
                     <h2>FEATURED PRODUCTS</h2>
@@ -65,9 +107,12 @@
                                 <button class="btn btn-success w-100"><i class="bi bi-cart"></i>Add to cart</button>
                             </div>
                         </div>
-
                     </div>
+                    <div claas="col-sm-6 col-md-3"></div>
+                    <div class="col-sm-6 col-md-3"></div>
+                    <div class="col-sm-6 col-md-3"></div>
                 </div>
+            </div>
             </div>
         </section>
         <section class="about-section py-5">
